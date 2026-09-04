@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Advanced security operating loop</title>
+  <desc id="desc">An iterative loop connecting hypothesis, instrumentation, analysis, and improvement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#241746"/>
+      <stop offset="1" stop-color="#154d5e"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#f4c86b"/>
+    </marker>
+  </defs>
+  <rect width="960" height="260" rx="20" fill="url(#bg)"/>
+  <text x="48" y="55" fill="#fff" font-family="system-ui, sans-serif" font-size="26" font-weight="700">Advanced security operating loop</text>
+  <text x="48" y="83" fill="#d5d0e8" font-family="system-ui, sans-serif" font-size="15">Make assumptions explicit, measure the system, and improve with evidence.</text>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <g transform="translate(60 125)">
+      <rect width="180" height="82" rx="12" fill="#f4e9ff"/>
+      <text x="90" y="34" fill="#241746" font-size="17" font-weight="700">Hypothesize</text>
+      <text x="90" y="58" fill="#4e4770" font-size="13">Define the question</text>
+    </g>
+    <g transform="translate(280 125)">
+      <rect width="180" height="82" rx="12" fill="#e0f5f2"/>
+      <text x="90" y="34" fill="#241746" font-size="17" font-weight="700">Instrument</text>
+      <text x="90" y="58" fill="#4e4770" font-size="13">Collect useful signals</text>
+    </g>
+    <g transform="translate(500 125)">
+      <rect width="180" height="82" rx="12" fill="#fff1cf"/>
+      <text x="90" y="34" fill="#241746" font-size="17" font-weight="700">Analyze</text>
+      <text x="90" y="58" fill="#4e4770" font-size="13">Test and explain findings</text>
+    </g>
+    <g transform="translate(720 125)">
+      <rect width="180" height="82" rx="12" fill="#f8dede"/>
+      <text x="90" y="34" fill="#241746" font-size="17" font-weight="700">Improve</text>
+      <text x="90" y="58" fill="#4e4770" font-size="13">Document and iterate</text>
+    </g>
+  </g>
+  <g stroke="#f4c86b" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M240 166 H274"/>
+    <path d="M460 166 H494"/>
+    <path d="M680 166 H714"/>
+    <path d="M810 216 C810 245 150 245 150 216"/>
+  </g>
+</svg>

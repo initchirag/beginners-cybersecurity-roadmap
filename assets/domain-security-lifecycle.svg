@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Security learning lifecycle</title>
+  <desc id="desc">A four-stage lifecycle from understanding a domain to communicating defensible outcomes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b1f33"/>
+      <stop offset="1" stop-color="#123b59"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#75d5c8"/>
+    </marker>
+  </defs>
+  <rect width="960" height="260" rx="20" fill="url(#bg)"/>
+  <text x="48" y="55" fill="#fff" font-family="system-ui, sans-serif" font-size="26" font-weight="700">Security domain lifecycle</text>
+  <text x="48" y="83" fill="#b9d5e5" font-family="system-ui, sans-serif" font-size="15">Build understanding, test it safely, and leave evidence that others can trust.</text>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <g transform="translate(60 125)">
+      <rect width="180" height="82" rx="12" fill="#e8f4f7"/>
+      <text x="90" y="34" fill="#0b1f33" font-size="17" font-weight="700">Understand</text>
+      <text x="90" y="58" fill="#31546a" font-size="13">Models and concepts</text>
+    </g>
+    <g transform="translate(280 125)">
+      <rect width="180" height="82" rx="12" fill="#d8f1e8"/>
+      <text x="90" y="34" fill="#0b1f33" font-size="17" font-weight="700">Practice</text>
+      <text x="90" y="58" fill="#31546a" font-size="13">Labs and repeatable tasks</text>
+    </g>
+    <g transform="translate(500 125)">
+      <rect width="180" height="82" rx="12" fill="#f8edcf"/>
+      <text x="90" y="34" fill="#0b1f33" font-size="17" font-weight="700">Validate</text>
+      <text x="90" y="58" fill="#31546a" font-size="13">Checks and trade-offs</text>
+    </g>
+    <g transform="translate(720 125)">
+      <rect width="180" height="82" rx="12" fill="#f6dede"/>
+      <text x="90" y="34" fill="#0b1f33" font-size="17" font-weight="700">Communicate</text>
+      <text x="90" y="58" fill="#31546a" font-size="13">Evidence and next steps</text>
+    </g>
+  </g>
+  <g stroke="#75d5c8" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M240 166 H274"/>
+    <path d="M460 166 H494"/>
+    <path d="M680 166 H714"/>
+  </g>
+</svg>
