@@ -1,0 +1,19 @@
+name: Content improvement
+description: Report an error, stale link, or learning gap
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should change?
+      description: Include the file and a reproducible description.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Supporting source
+      description: Prefer an official or primary reference.
+    validations:
+      required: true

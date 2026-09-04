@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a broken link, incorrect statement, or formatting problem
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Affected file or link
+      description: Provide the repository-relative path or complete URL.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong?
+      description: Include the current behavior and the expected correction.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or source
+      description: Link to an official source where applicable; redact sensitive data.
+    validations:
+      required: false
